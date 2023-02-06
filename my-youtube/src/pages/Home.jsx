@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 import useVideos from '../hooks/use-videos';
-import Video from './Video';
+import Video from '../components/Video';
 
 export default function Home() {
   const videos = useVideos('/data/search.json');

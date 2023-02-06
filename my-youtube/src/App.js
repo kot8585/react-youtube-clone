@@ -1,12 +1,13 @@
 import './App.css';
-import Header from './components/Header';
-import Home from './components/Home';
+import Header from './pages/Header';
+import Home from './pages/Home';
+import { Outlet } from 'react-router-dom';
 
 function App() {
   return (
     <div className='flex flex-col justify-center'>
       <Header />
-      <Home />
+      <Outlet />
     </div>
 
   );
