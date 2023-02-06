@@ -5,7 +5,7 @@ export default function Video({info}) {
   const navigate = useNavigate();
   
   const handleClick = () => {
-    navigate(`/videos/watch/:${info.videoId}`);
+    navigate(`/videos/watch/${info.videoId}`, {state: info});
   }
 
   return (

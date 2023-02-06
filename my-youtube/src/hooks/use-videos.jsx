@@ -14,7 +14,9 @@ export default function useVideos(url) {
         'thumbnail': item.snippet.thumbnails.default.url,
         'title': item.snippet.title,
         'publishedAt': item.snippet.publishedAt, 
+        'description' : item.snippet.description,
         'channelTitle': item.snippet.channelTitle,
+        'channelId': item.snippet.channelId,
       }})
     })
     .then((data) => {

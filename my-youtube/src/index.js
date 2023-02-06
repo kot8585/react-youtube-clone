@@ -9,6 +9,7 @@ import App from './App';
 import Home from './pages/Home';
 import ErrorPage from './pages/error-page';
 import Search from './pages/Search';
+import Watch from './pages/Watch';
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path: "/videos/:search",
         element: <Search />
+      },
+      {
+        path: "/videos/watch/:videoId",
+        element: <Watch />
       }
     ]
   }
@@ -30,10 +35,10 @@ const router = createBrowserRouter([
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <RouterProvider router={router}>
       <App />
     </RouterProvider>
-  </React.StrictMode>
+  // </React.StrictMode>
 );
 
