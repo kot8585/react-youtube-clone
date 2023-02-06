@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 
 export default function useVideos(url) {
-  const [videos, setVideos] = useState([])
+  const [videos, setVideos] = useState([]);
   //근데 이렇게 하면 한번밖에 안되는 거 아니야?
   // '/data/search.json'
   useEffect(() => {
@@ -10,16 +10,19 @@ export default function useVideos(url) {
     .then((json) => {
       const items = json.items;
       return items.map((item) => { return {
-        'videoId': item.id.videoId,
+        'videoId': item.id.videoId || item.id.playlistId || item.id.channelId,
         'thumbnail': item.snippet.thumbnails.default.url,
         'title': item.snippet.title,
         'publishedAt': item.snippet.publishedAt, 
         'channelTitle': item.snippet.channelTitle,
       }})
     })
-    .then((data) => {setVideos(data)});
-  }, []);
+    .then((data) => {
+      console.log('호출');
+      setVideos(data);
+    });
+  }, [url]);
 
-  return videos
+  return videos;
 }
 

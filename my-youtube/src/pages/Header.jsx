@@ -1,20 +1,19 @@
 import React, {useState} from 'react';
 import {BsYoutube, BsSearch} from 'react-icons/bs'
-import useVideos from '../hooks/use-videos';
+import { useNavigate } from 'react-router-dom';
 
-const API_KEY = 'AIzaSyD7S8L9gxOOPQLMVeMY1GzrKrsP8UoT_AE';
 export default function Header() {
   const [search, setSearch] = useState('');
+  const navigate = useNavigate();
+
   const handleChange = (e) => {
     setSearch(e.target.value);
   } 
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const url = `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q=${search}&key=${API_KEY}`
     //버튼 눌리면 react-router로 페이지만 이동시키고 search페이지에서 뿌려주기
-    //근데 search 페이지랑 home 페이지랑 데이터만 다른데 search 페이지를 따로 만들어야돼? 
-    //url이 바뀌니까 새로 만들어야되는거야?? 
+    navigate(`/videos/${search}`);
   }
 
   return (

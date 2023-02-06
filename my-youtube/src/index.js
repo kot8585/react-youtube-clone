@@ -8,6 +8,7 @@ import {
 import App from './App';
 import Home from './pages/Home';
 import ErrorPage from './pages/error-page';
+import Search from './pages/Search';
 
 const router = createBrowserRouter([
   {
@@ -20,8 +21,8 @@ const router = createBrowserRouter([
         element: <Home />
       },
       {
-        path: "/video",
-        element: <div>hello</div>
+        path: "/videos/:search",
+        element: <Search />
       }
     ]
   }
