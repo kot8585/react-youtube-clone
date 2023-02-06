@@ -1,0 +1,862 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "_-2a2y6WZfWH06vBT5GC8M8d47w",
+    "nextPageToken": "CBkQAA",
+    "regionCode": "KR",
+    "pageInfo": {
+        "totalResults": 1000000,
+        "resultsPerPage": 25
+    },
+    "items": [
+        {
+            "kind": "youtube#searchResult",
+            "etag": "vkvbREc2l4mKOpKqD2TnLWk4Q_M",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "mgbZunbhsX0"
+            },
+            "snippet": {
+                "publishedAt": "2018-08-15T15:45:01Z",
+                "channelId": "UCBVjMGOIkavEAhyqpxJ73Dw",
+                "title": "Charlie Puth - Perfect Pitch",
+                "description": "Charlie Puth explains how sound and music are an essential part of how he experiences the world. Available with YouTube ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/mgbZunbhsX0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/mgbZunbhsX0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/mgbZunbhsX0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Maroon 5",
+                "liveBroadcastContent": "none",
+                "publishTime": "2018-08-15T15:45:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "eRVpHvma35AVGZ86n1Aqg1THEw4",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "jvqyc6IXhb0"
+            },
+            "snippet": {
+                "publishedAt": "2022-04-04T04:34:02Z",
+                "channelId": "UCAP8OK0GHFbnL5OkY3j04Xw",
+                "title": "[#강철부대2 하이라이트] 더 강렬하게! 더 뜨겁게! 목표는 오직 승리다 I 강철부대2 I ENA 채널 I  매주 화요일 밤 9시 20분",
+                "description": "더 뜨거워진 강철부대2, 승리만을 향하는 각 부대의 열정! 〈강철부대2〉 ENA 채널 x 채널A 공동 제작 매주 화요일 밤 9시 20분 #강철 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/jvqyc6IXhb0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/jvqyc6IXhb0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/jvqyc6IXhb0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "ENA",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-04-04T04:34:02Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "YTY6qgptZTEsJRwTvc1zAE8PCVI",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "PU2LjemMPM4"
+            },
+            "snippet": {
+                "publishedAt": "2022-10-07T03:00:09Z",
+                "channelId": "UClgieCzaMtSRPBJiUfgcXzg",
+                "title": "골프의 모든 걸 한번에! 모두의 골프플랫폼, 골프존",
+                "description": "골프존을 한다는 건 내가 원하는 골프서비스를 한 곳에서 모두 누릴 수 있다는 것 이제 복잡한 세상 편하게 골프를 즐겨요! 스크린골프 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/PU2LjemMPM4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/PU2LjemMPM4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/PU2LjemMPM4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "골프존",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-10-07T03:00:09Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "KLUaA0JJ5YaFSF-XvM3FXSDYSRU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "ZoxMjJUIWGg"
+            },
+            "snippet": {
+                "publishedAt": "2022-06-24T01:00:15Z",
+                "channelId": "UCNE1pYj5_Hmnaz1xnnJi_dQ",
+                "title": "“도장깨기 정규직 시켜만주십셔!!!” 유부남되고 일 욕심 부쩍 많아진 박군 ㅋㅋㅋ l 장윤정의 도장깨기",
+                "description": "장윤정의 도장깨기- 전 국민 가수 만들기!✨ 매주 목요일 저녁 7시 30분 본방사수 장윤정의 도장깨기 시청방법   헬로TV 채널 25 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ZoxMjJUIWGg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ZoxMjJUIWGg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ZoxMjJUIWGg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "LG헬로비전 헬로tv",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-06-24T01:00:15Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "uIo_JLUB-Kg9dcqnOPgik5SFgYk",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Iiukq_ilT0Y"
+            },
+            "snippet": {
+                "publishedAt": "2018-04-11T15:00:01Z",
+                "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+                "title": "Ep4 It‘s on you and I | BTS: Burn the Stage",
+                "description": "Can the show go on? BTS begin to wrap up their South America tour. Day-by-day, we see how the members passionately discuss ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Iiukq_ilT0Y/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Iiukq_ilT0Y/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Iiukq_ilT0Y/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "BANGTANTV",
+                "liveBroadcastContent": "none",
+                "publishTime": "2018-04-11T15:00:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "iGWU52NpZfrDziETidETSWcEbhU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "SqsGgJHf4Cw"
+            },
+            "snippet": {
+                "publishedAt": "2023-02-05T06:00:10Z",
+                "channelId": "UCcQTRi69dsVYHN3exePtZ1A",
+                "title": "[자막뉴스] 대한민국 심각한 상황...지방은 벌써 시작된 위기 / KBS  2023.02.05.",
+                "description": "울산 울주군에 있는 한 시골집. 철제로 된 문은 삭아 없어졌고, 집 내부에는 나무와 잡초가 사람 키만큼 자라 들어갈 수가 없습니다.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/SqsGgJHf4Cw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/SqsGgJHf4Cw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/SqsGgJHf4Cw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "KBS News",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-02-05T06:00:10Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "x5nTRGGaf60R50twdcGKItqK9BE",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "jb9TqKTgKuA"
+            },
+            "snippet": {
+                "publishedAt": "2023-02-05T08:00:30Z",
+                "channelId": "UCcQTRi69dsVYHN3exePtZ1A",
+                "title": "[자막뉴스] &#39;반값 아파트&#39; 짓는다더니...뒤통수 제대로 맞았다 / KBS  2023.02.05.",
+                "description": "거제시 '반값 아파트'는 민선 6기 핵심 공약으로 시작됐습니다. [권민호/거제시장/2017년 : \"집 없이 설움을 겪고 있는 모든 국민들에게 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/jb9TqKTgKuA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/jb9TqKTgKuA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/jb9TqKTgKuA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "KBS News",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-02-05T08:00:30Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "QU6PzuhNoXX1INE9oMIfVCFwU-0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "wryDjWWAEqM"
+            },
+            "snippet": {
+                "publishedAt": "2023-02-04T21:33:38Z",
+                "channelId": "UCoMdktPbSTixAyNGwb-UYkQ",
+                "title": "Police searching for Nicola Bulley appeal for &#39;key witness&#39;",
+                "description": "The family and friends of Nicola Bulley, missing for more than a week in Lancashire, have questioned the police theory over her ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/wryDjWWAEqM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/wryDjWWAEqM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/wryDjWWAEqM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sky News",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-02-04T21:33:38Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "qQ-dQdzQOlDWuJH60qUMgibCstI",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "gk9npGwuaDE"
+            },
+            "snippet": {
+                "publishedAt": "2022-10-13T08:54:51Z",
+                "channelId": "UCsWa6xl7KxOolVhROUJ4Ghw",
+                "title": "일류국회로 가는 길!  네 가지 소통으로 길을 찾다!",
+                "description": "국민들에게 좀 더 뽀~짝 다가가고! 귀를 활~짝 열고 소통할 준비를 마친 대한민국 국회! 어떻게 소통의 문턱을 낮출 예정이냐고요?",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/gk9npGwuaDE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/gk9npGwuaDE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/gk9npGwuaDE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "대한민국 국회 공식채널",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-10-13T08:54:51Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "BpHLUex87XaBQPLqsdAdaaJrz5g",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "dOcZ27XSsX8"
+            },
+            "snippet": {
+                "publishedAt": "2023-02-04T09:55:33Z",
+                "channelId": "UCsU-I-vHLiaMfV_ceaYz5rQ",
+                "title": "[발품뉴스] 불금에도 빈 택시 수두룩…기사·승객 모두 불만에 대안은? / JTBC 뉴스룸",
+                "description": "이슈가 있는 현장을 직접 찾아가는 윤정식 기자의 발품뉴스 시간입니다. 조금 전 영상에서 지난밤 강남역 상황을 보셨습니다. 정부가 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/dOcZ27XSsX8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/dOcZ27XSsX8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/dOcZ27XSsX8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "JTBC News",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-02-04T09:55:33Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "vtwyYDIMwn80LqfaKM4EeVnRAfc",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "G66Ef8_8cM4"
+            },
+            "snippet": {
+                "publishedAt": "2023-02-05T00:00:09Z",
+                "channelId": "UCsU-I-vHLiaMfV_ceaYz5rQ",
+                "title": "[자막뉴스] 주민에게 기증받고 수억 썼다?…&quot;도저히 납득 안 가죠&quot; 원성 터졌다 / JTBC News",
+                "description": "지자체가 수억 원을 들여서 야심차게 만들었는데, '골칫덩이'가 돼 버린 조형물들이 있습니다. 드러나는 성과에만 집중을 하다보니 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/G66Ef8_8cM4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/G66Ef8_8cM4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/G66Ef8_8cM4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "JTBC News",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-02-05T00:00:09Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "VfKDvPxCTicyCGf5dTRgF-N4lsU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "rAb2_j7d8PI"
+            },
+            "snippet": {
+                "publishedAt": "2023-02-04T23:29:25Z",
+                "channelId": "UCF4Wxdo3inmxP-Y59wXDsFw",
+                "title": "&quot;또 스티커 붙이면 주차장 입구 막겠다&quot;.. 아파트 &#39;발칵&#39; [뉴스.zip/MBC뉴스]",
+                "description": "보복주차 #스티커 #주차장 00:00 [자막뉴스] \"내 차에는 스티커 붙이지마!\" 민폐 포르쉐 '이거 협박 아닌가요?' (2023.02.02/MBC뉴스) ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/rAb2_j7d8PI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/rAb2_j7d8PI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/rAb2_j7d8PI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "MBCNEWS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-02-04T23:29:25Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "vB90FV8iwLD3XRzoTLcySoA1vkU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "oa3H8PXwW7c"
+            },
+            "snippet": {
+                "publishedAt": "2023-02-05T11:15:55Z",
+                "channelId": "UCF4Wxdo3inmxP-Y59wXDsFw",
+                "title": "&quot;탈당하고 신당&quot; 대통령 &#39;책사&#39;의 작심 발언 - &quot;윤 대통령 심한 회의&quot; (2023.02.05/뉴스데스크/MBC)",
+                "description": "\"안철수 의원이 당 대표가 되면 윤석열 대통령이 탈당해 신당을 창당할 거다.\" 윤 대통령의 책사로 불렸던 신평 변호사가 한 말인데, ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/oa3H8PXwW7c/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/oa3H8PXwW7c/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/oa3H8PXwW7c/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "MBCNEWS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-02-05T11:15:55Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "mjcyjEoumeKtmzNwxQmQHmv8JMs",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "U7qEbQx0EFg"
+            },
+            "snippet": {
+                "publishedAt": "2023-02-05T11:40:48Z",
+                "channelId": "UCF4Wxdo3inmxP-Y59wXDsFw",
+                "title": "신차 출고 석 달 새 3배 빨라졌다‥왜? (2023.02.05/뉴스데스크/MBC)",
+                "description": "작년까지만 해도 새 차를 사면 차를 받을 때까지 1년 넘게 기다리는 일이 허다했죠. 올해 들어 신차 출고 기간이 빨라지고 있습니다.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/U7qEbQx0EFg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/U7qEbQx0EFg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/U7qEbQx0EFg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "MBCNEWS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-02-05T11:40:48Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "uB14cR-tiD_N_iEXqzueLuS5_lo",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "5f28FV-lrkQ"
+            },
+            "snippet": {
+                "publishedAt": "2023-02-05T02:28:05Z",
+                "channelId": "UCF4Wxdo3inmxP-Y59wXDsFw",
+                "title": "영상인데도 대만은 100명씩 사망.. 우리보다 따뜻한데 왜? [뉴스.zip/MBC뉴스]",
+                "description": "00:00 '북극한파' 덮친 대만 146명 사망‥가정집 바닥도 '펑' (2023.01.30/뉴스데스크/MBC) 01:52 [이 시각 세계] 대만, 기습 한파에 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/5f28FV-lrkQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/5f28FV-lrkQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/5f28FV-lrkQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "MBCNEWS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-02-05T02:28:05Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "wdoqYveET83_z-JVa5AEr51ULVc",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "4Pw9qvj5d90"
+            },
+            "snippet": {
+                "publishedAt": "2023-02-05T05:16:30Z",
+                "channelId": "UCF4Wxdo3inmxP-Y59wXDsFw",
+                "title": "&quot;첫 신혼집인데 당했어요..&quot; 출발부터 무너진 &#39;2030&#39; [뉴스.zip/MBC뉴스]",
+                "description": "00:00 깡통전세사기일당 110명 적발‥신혼부부·사회초년생 등 150여명 피해 (2023.01.31/뉴스데스크/MBC) 01:51 '빌라왕' 배후 6개 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/4Pw9qvj5d90/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/4Pw9qvj5d90/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/4Pw9qvj5d90/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "MBCNEWS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-02-05T05:16:30Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "6SXJe3rOz86dQaAoIyn8Hno28kY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "hqr6BB3XZck"
+            },
+            "snippet": {
+                "publishedAt": "2023-02-04T22:03:05Z",
+                "channelId": "UChlgI3UHCOnwUGzWzbJ3H5w",
+                "title": "美, 대서양 상공서 중국 정찰풍선 격추...잔해 수거 / YTN",
+                "description": "[앵커] 미국을 발칵 뒤집어놓은 중국의 정찰풍선이 결국 대서양 상공에서 격추됐습니다. 미국은 전투기를 동원해 풍선을 격추한 뒤 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/hqr6BB3XZck/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/hqr6BB3XZck/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/hqr6BB3XZck/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": " YTN",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-02-04T22:03:05Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "VX6rndGAX-XVFh3U-g-k6Sc6p2A",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Fgfv6v25k0k"
+            },
+            "snippet": {
+                "publishedAt": "2023-02-05T06:55:27Z",
+                "channelId": "UCF4Wxdo3inmxP-Y59wXDsFw",
+                "title": "&#39;부아앙~&#39; 튀어나간 자동차..급발진 아니라면 뭘까요? [뉴스.zip/MBC뉴스]",
+                "description": "00:00 돌진한 승용차가 택시 들이받아‥60대 운전자 2명 중상 (2023.01.30/뉴스데스크/MBC) 01:25 12살 어린이 사망 '급발진' 의심 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Fgfv6v25k0k/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Fgfv6v25k0k/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Fgfv6v25k0k/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "MBCNEWS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-02-05T06:55:27Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "iMX_1L537sXMY48hDpdaxnf2JI4",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "UIxSNzCw2Gs"
+            },
+            "snippet": {
+                "publishedAt": "2023-02-05T13:36:40Z",
+                "channelId": "UCF4Wxdo3inmxP-Y59wXDsFw",
+                "title": "경제는 역성장, 공공요금 물가 인상률은 최고치, 미분양 &#39;위험선&#39;..총체적 위기 신호에 &#39;경기 침체&#39; 공포 확산 - [핫이슈PLAY] MBC뉴스 2023년 2월 5일",
+                "description": "[경제 지표] - 지난해 4분기 성장률 -0.4%‥2년 반 만에 역성장 (2023.01.26) - 미국 4분기 성장률 2.9%‥성장세 이어질지 '불투명' ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/UIxSNzCw2Gs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/UIxSNzCw2Gs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/UIxSNzCw2Gs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "MBCNEWS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-02-05T13:36:40Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "pmuHA0Y_m2wNb4Hf_8HxQe-H6eA",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "-lsRMxLS0sw"
+            },
+            "snippet": {
+                "publishedAt": "2023-02-05T05:50:07Z",
+                "channelId": "UCF4Wxdo3inmxP-Y59wXDsFw",
+                "title": "[자막뉴스]  &#39;외국인 마약 방치가 직무유기&#39; 폭행 논란 경찰 &quot;모두 무죄&quot; (MBC뉴스)",
+                "description": "경찰 #검거 #무죄.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/-lsRMxLS0sw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/-lsRMxLS0sw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/-lsRMxLS0sw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "MBCNEWS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-02-05T05:50:07Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "dsQ82ycHGJhTGGhYPowcTA-wugk",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "0rMY_Gay6BE"
+            },
+            "snippet": {
+                "publishedAt": "2023-02-05T10:17:25Z",
+                "channelId": "UCcQTRi69dsVYHN3exePtZ1A",
+                "title": "1월 연료 물가 1년 전보다 32%↑…외환위기 이후 최고 / KBS  2023.02.05.",
+                "description": "전기와 가스 등 가정에서 주로 쓰는 연료 물가가 1년 새 32%가량 올라, 외환위기 이후 최고 상승 폭을 기록했습니다. 지난해 전기·가스 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/0rMY_Gay6BE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/0rMY_Gay6BE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/0rMY_Gay6BE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "KBS News",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-02-05T10:17:25Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "fZ4Nc9h1Dr1LkIrDoQvH6Y5EUBE",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "lCWn6Kw3sr8"
+            },
+            "snippet": {
+                "publishedAt": "2023-02-05T08:00:30Z",
+                "channelId": "UCkinYTS9IHqOEwR1Sze2JTw",
+                "title": "냄새만으로도 쓰러지는데..중국발 마약 펜타닐 미국내 광범위하게 퍼져 / SBS / 모아보는 뉴스",
+                "description": "원래는 마약성 진통제로 개발됐으나 싼 가격에 강한 환각성, 구하기 쉽다는 점 때문에 마약으로 오용되는 약물이 있습니다.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/lCWn6Kw3sr8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/lCWn6Kw3sr8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/lCWn6Kw3sr8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "SBS 뉴스",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-02-05T08:00:30Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "80d3CglCKSQPmIupZe2vFOQCz7M",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "9f1CXUwRqis"
+            },
+            "snippet": {
+                "publishedAt": "2023-02-05T00:11:04Z",
+                "channelId": "UCF4Wxdo3inmxP-Y59wXDsFw",
+                "title": "&#39;천공 의혹&#39; 보도 기자까지 수사 &#39;천공 개입설&#39; 진위 밝혀질까? [뉴스.zip/MBC뉴스]",
+                "description": "00:00 \"천공 공관 방문, 육참총장에게 들었다\" - 대통령실 \"가짜뉴스\" (2023.02.02/뉴스데스크/MBC) 02:16 '천공' 의혹 보도 현직 기자 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/9f1CXUwRqis/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/9f1CXUwRqis/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/9f1CXUwRqis/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "MBCNEWS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-02-05T00:11:04Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "A240OlBgS3tylOpfdSOtJ12I19s",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "5f1N1vYq4Ks"
+            },
+            "snippet": {
+                "publishedAt": "2023-02-04T21:04:20Z",
+                "channelId": "UChlgI3UHCOnwUGzWzbJ3H5w",
+                "title": "미국 정부, 대서양 상공서 중국 정찰풍선 격추 / YTN",
+                "description": "[앵커] 미국을 발칵 뒤집어놓은 중국의 정찰풍선이 결국 대서양 상공에서 격추됐습니다. 앞서 바이든 대통령은 풍선을 격추할 것이냐는 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/5f1N1vYq4Ks/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/5f1N1vYq4Ks/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/5f1N1vYq4Ks/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": " YTN",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-02-04T21:04:20Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "4ei7bKmS9MxcNdpU6lzC_IT4MR4",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "G9Ntu3xwrPU"
+            },
+            "snippet": {
+                "publishedAt": "2023-02-05T12:04:01Z",
+                "channelId": "UCF4Wxdo3inmxP-Y59wXDsFw",
+                "title": "고속도로에서 50대 &#39;쾅쾅쾅&#39;‥화재까지 발생해 16명 사망 (2023.02.05/뉴스데스크/MBC)",
+                "description": "중국의 한 고속도로에서 차량 수십 대가 연쇄 추돌해 16명이 숨지고 60여 명이 다치는 대형 사고가 발생했습니다. 차량들이 서로 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/G9Ntu3xwrPU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/G9Ntu3xwrPU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/G9Ntu3xwrPU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "MBCNEWS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-02-05T12:04:01Z"
+            }
+        }
+    ]
+}
