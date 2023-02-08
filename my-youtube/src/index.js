@@ -5,21 +5,14 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from 'react-router-dom'
- import {
-   useQuery,
-   useMutation,
-   useQueryClient,
-   QueryClient,
-   QueryClientProvider,
- } from 'react-query'
+
 import App from './App';
 import Home, {loader as homeLoader} from './pages/Home';
 import ErrorPage from './pages/error-page';
 import Search, { loader as searchLoader } from './pages/Search';
-import Watch, {loader as watchLoader} from './pages/Watch';
-import { ReactQueryDevtools } from "react-query/devtools";
+import Watch from './pages/Watch';
 
-const queryClient = new QueryClient();
+
 
 const router = createBrowserRouter([
   {
@@ -39,8 +32,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/videos/watch/:videoId",
-        element: <Watch />,
-        loader: watchLoader
+        element: <Watch />
       }
     ]
   }
@@ -50,10 +42,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <React.StrictMode>
     <RouterProvider router={router}>
-      <QueryClientProvider client={queryClient}>
-        <ReactQueryDevtools initialIsOpen={true} />
-        <App />
-      </QueryClientProvider>
+      <App />
     </RouterProvider>
   // </React.StrictMode>
 );
