@@ -2,8 +2,7 @@ import React from 'react';
 import { useQuery } from '@tanstack/react-query';
 import { useLocation, useParams } from 'react-router-dom';
 import Video from '../components/Video';
-import { getChannelThumb, getRelatedList } from '../YoutubeClient';
-
+import { getChannelThumb, getRelatedList } from '../client/YoutubeClientMethod';
 
 export default function Watch() {
   const {videoId} = useParams();
