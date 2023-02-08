@@ -9,7 +9,7 @@ export default function RelatedVideo({info}) {
   }
 
   return (
-    <article className='flex flex-col flex-none gap-2' onClick={handleClick}>
+    <article className='flex flex-none gap-2' onClick={handleClick}>
         <img alt='thumbnail' src={info.thumbnail} className='w-40 rounded-xl'/>
         <div className='flex flex-col w-full'>
         <h1 className="title font-bold text-sm" >{info.title}</h1>

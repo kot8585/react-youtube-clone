@@ -1,15 +1,16 @@
 import React from 'react';
 import { useQuery } from '@tanstack/react-query';
 import { useLocation, useParams } from 'react-router-dom';
-import Video from '../components/Video';
-import { getChannelThumb, getRelatedList } from '../client/YoutubeClientMethod';
+import { FakeClient, getChannelThumb, getRelatedList } from '../client/FakeClient';
+import RelatedVideo from '../components/RelatedVideo';
 
+const client = new FakeClient();
 export default function Watch() {
   const {videoId} = useParams();
   const {state} = useLocation();
   
-  const { isLoading, error, data: relatedVideos } = useQuery(['related'], () => getRelatedList(videoId));
-  const { isLoading:isLoadingChannelImg, error: errorChannelImg, data: channelImg } = useQuery(['channelImg'], () => getChannelThumb(state.channelId));
+  const { isLoading, error, data: relatedVideos } = useQuery(['related'], () => client.getRelatedList(videoId));
+  const { isLoading:isLoadingChannelImg, error: errorChannelImg, data: channelImg } = useQuery(['channelImg'], () => client.getChannelThumb(state.channelId));
 
   if (isLoading) return 'relatedVideo Loading...'  ;
   if (error) return 'An relatedVideo error has occurred: ' + error.message;
@@ -35,7 +36,7 @@ export default function Watch() {
       </main>
       <aside className='flex flex-col space-y-3 w-2/6'>
         {/* TODO : video 재사용하는건 맞는데 display가 달라야하는데 말이지 */}
-        {relatedVideos.map((video) => <Video key={video.videoId} info={video}/>)}
+        {relatedVideos.map((video) => <RelatedVideo key={video.videoId} info={video}/>)}
       </aside>
     </div>
   );

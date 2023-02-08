@@ -1,16 +1,16 @@
+import { useQuery } from '@tanstack/react-query';
 import React from 'react';
-import { useLoaderData } from 'react-router-dom';
-import { getSearchList } from '../YoutubeClient';
+import { FakeClient } from '../client/FakeClient';
 import Video from '../components/Video';
 
-export async function loader({params}) {
-  console.log(params);
-  return getSearchList(params.search);
-}
-
+//Todo : client 전역으로 만들기?
+const client = new FakeClient();
 export default function Search() {
 
-  const videos = useLoaderData();
+  const {isLoading, error, data:videos} = useQuery(['search'], () => client.getSearchList());
+
+  if(isLoading) return <p>Loading...</p>
+  if(error) return <p>Search.jsx error! {error.message}</p>
 
   return (
     <main className='flex flex-wrap content-center'>

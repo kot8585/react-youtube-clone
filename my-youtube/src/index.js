@@ -7,7 +7,7 @@ import {
 } from 'react-router-dom'
 
 import App from './App';
-import Home, {loader as homeLoader} from './pages/Home';
+import Home from './pages/Home';
 import ErrorPage from './pages/error-page';
 import Search, { loader as searchLoader } from './pages/Search';
 import Watch from './pages/Watch';
@@ -23,12 +23,10 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Home />,
-        loader: homeLoader
       },
       {
         path: "/videos/:search",
         element: <Search />,
-        loader: searchLoader
       },
       {
         path: "/videos/watch/:videoId",
