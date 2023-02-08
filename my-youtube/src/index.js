@@ -1,15 +1,25 @@
-import React, { Children } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import {
   createBrowserRouter,
   RouterProvider,
 } from 'react-router-dom'
+ import {
+   useQuery,
+   useMutation,
+   useQueryClient,
+   QueryClient,
+   QueryClientProvider,
+ } from 'react-query'
 import App from './App';
-import Home from './pages/Home';
+import Home, {loader as homeLoader} from './pages/Home';
 import ErrorPage from './pages/error-page';
-import Search from './pages/Search';
-import Watch from './pages/Watch';
+import Search, { loader as searchLoader } from './pages/Search';
+import Watch, {loader as watchLoader} from './pages/Watch';
+import { ReactQueryDevtools } from "react-query/devtools";
+
+const queryClient = new QueryClient();
 
 const router = createBrowserRouter([
   {
@@ -19,15 +29,18 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Home />
+        element: <Home />,
+        loader: homeLoader
       },
       {
         path: "/videos/:search",
-        element: <Search />
+        element: <Search />,
+        loader: searchLoader
       },
       {
         path: "/videos/watch/:videoId",
-        element: <Watch />
+        element: <Watch />,
+        loader: watchLoader
       }
     ]
   }
@@ -37,7 +50,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <React.StrictMode>
     <RouterProvider router={router}>
-      <App />
+      <QueryClientProvider client={queryClient}>
+        <ReactQueryDevtools initialIsOpen={true} />
+        <App />
+      </QueryClientProvider>
     </RouterProvider>
   // </React.StrictMode>
 );

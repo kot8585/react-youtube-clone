@@ -1,26 +1,36 @@
 import React, {useEffect, useState} from 'react';
-import { useLocation, useParams } from 'react-router-dom';
+import { useLoaderData, useLocation, useParams } from 'react-router-dom';
 import Video from '../components/Video';
-import useVideos from '../hooks/use-videos';
+ import {
+   useQueryClient,
+   useQuery,
+ } from 'react-query'
+import { getChannelThumb, getRelatedList } from '../YoutubeClient';
 
 const API_KEY = 'AIzaSyD7S8L9gxOOPQLMVeMY1GzrKrsP8UoT_AE';
+
+export async function loader({params}) {
+  return getRelatedList(params.videoId);
+}
+
 export default function Watch() {
   const {videoId} = useParams();
   const {state} = useLocation();
   const [channel, setChannelUrl] = useState('');
   
-  //채널 이미지 가져오기 
-  useEffect(() => {
-    fetch(`https://youtube.googleapis.com/youtube/v3/channels?part=snippet&id=${state.channelId}&key=${API_KEY}`)
-    .then((response) => response.json())
-    .then((json) => {
-      setChannelUrl(json.items[0].snippet.thumbnails.default.url);
-    })
-  }, [state.channelId])
-  
-  // const relatedVideos = useVideos(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&relatedToVideoId=${videoId}&type=video&maxResults=25&key=${API_KEY}`);
-  const relatedVideos = useVideos('/data/related.json');
+  const relatedVideos = useQuery('related', getRelatedList(videoId));
 
+  
+  
+  //어디다 놔야할지,, 허허.. 이걸 usequery가 쉽게 해주네... react-router가 아니라... 
+  // 에잇 모르겠다...
+  // const {data, isError, isLoading} = useQuery(
+  //   'channelImg', 
+  //   fetch (`https://youtube.googleapis.com/youtube/v3/channels?part=snippet&id=${state.channelId}&key=${API_KEY}`)
+  //   )
+
+    
+  console.log('channel', channel);
    return (
     <div className='flex'>
       <main>
@@ -33,7 +43,7 @@ export default function Watch() {
         <div>{state.title}</div>
         <div>
           {/* ❓이미지 어디서 가져오지? */}
-          <img src={channel} alt="channelImage" />
+          {/* <img src={channel} alt="channelImage" /> */}
           <span>{state.channelTitle}</span>
         </div>
         <div>{state.description}</div>

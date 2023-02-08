@@ -1,11 +1,15 @@
 import React from 'react';
 import '../App.css';
-import useVideos from '../hooks/use-videos';
+import { getTrendList } from '../YoutubeClient';
 import Video from '../components/Video';
+import { useLoaderData } from 'react-router-dom';
+
+export async function loader() {
+  return getTrendList();
+}
 
 export default function Home() {
-  //Todo : hot trend 데이터 보여주기
-  const videos = useVideos('/data/search.json');
+  const videos = useLoaderData();
 
   return (
     <main className='flex flex-wrap content-center'>

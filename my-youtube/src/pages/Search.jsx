@@ -1,23 +1,16 @@
-import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import React from 'react';
+import { useLoaderData } from 'react-router-dom';
 import { getSearchList } from '../YoutubeClient';
 import Video from '../components/Video';
 
+export async function loader({params}) {
+  console.log(params);
+  return getSearchList(params.search);
+}
 
 export default function Search() {
-  const [videos, setVideos] = useState([]);
 
-  const {search} = useParams();
-
-  useEffect( () => {
-    async function fetchData() {
-    const searchData = await getSearchList(search)
-    console.log('searchData', searchData);
-    setVideos(searchData);
-    }
-    fetchData();
-  }, [search])
-    
+  const videos = useLoaderData();
 
   return (
     <main className='flex flex-wrap content-center'>
