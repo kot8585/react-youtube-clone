@@ -26,9 +26,11 @@ export async function getChannelThumb(channelId) {
 
 function makeVideosList(json){
   const items = json.items;
+            
+  console.log('items', json);
   return items.map((item) => { return {
     'videoId': item.id.videoId || item.id.playlistId || item.id.channelId || item.id,
-    'thumbnail': item.snippet.thumbnails.default.url,
+    'thumbnail': item.snippet.thumbnails.medium.url,
     'title': item.snippet.title,
     'publishedAt': item.snippet.publishedAt, 
     'description' : item.snippet.description,
