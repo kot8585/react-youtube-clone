@@ -7,6 +7,7 @@ import Video from '../components/Video';
 const client = new FakeClient();
 export default function Search() {
 
+  //Todo : Home component로 합치키 키워드 있으면 있는대로 검색하고 없으면 없는대로 검색하면 됌
   const {isLoading, error, data:videos} = useQuery(['search'], () => client.getSearchList());
 
   if(isLoading) return <p>Loading...</p>
