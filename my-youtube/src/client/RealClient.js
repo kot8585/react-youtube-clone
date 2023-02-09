@@ -1,4 +1,4 @@
-class RealClient {
+export class RealClient {
   //꼭 constructor가 있어야 new를 쓸 수 있나? 
   constructor() {
   }

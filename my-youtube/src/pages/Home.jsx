@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import '../App.css';
 import Video from '../components/Video';
 import { useQuery } from '@tanstack/react-query';
 import { FakeClient } from '../client/FakeClient';
+import { ClientContext } from '../context/ClientContext';
 
-const client = new FakeClient();
 export default function Home() {
+  const client = useContext(ClientContext);
 
   const {isLoading, error, data: videos} = useQuery(['trend'], () => client.getTrendList());
   console.log('videos',videos);

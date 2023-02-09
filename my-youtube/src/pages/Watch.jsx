@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import { useLocation, useParams } from 'react-router-dom';
 import { FakeClient, getChannelThumb, getRelatedList } from '../client/FakeClient';
 import RelatedVideo from '../components/RelatedVideo';
+import { ClientContext } from '../context/ClientContext';
 
-const client = new FakeClient();
+
 export default function Watch() {
+  const client = useContext(ClientContext);
   const {videoId} = useParams();
   const {state} = useLocation();
   
