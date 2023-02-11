@@ -1,14 +1,21 @@
 export class FakeClient {
   constructor(){}
 
-  async getSearchList(text) {
+  async getVideos(keyword) {
+    return keyword ? this.#getSearchList(keyword) : this.#getTrendList()
+  }
+
+  async #getSearchList(text) {
+    console.log(`search ${text} 실행됨`);
     const response = await fetch(`/data/search.json`);
     if(!response) {return []};
     const json = await response.json();
     return this.makeVideosList(json);
   }
 
-  async getTrendList() {
+  async #getTrendList() {
+    console.log('trend 실행됨');
+
     const response = await fetch (`/data/trend.json`);
     console.log('response', response);
     const json = await response.json();

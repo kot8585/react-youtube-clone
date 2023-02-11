@@ -3,7 +3,7 @@ import {BsYoutube, BsSearch} from 'react-icons/bs'
 import { useNavigate, useParams } from 'react-router-dom';
 
 export default function Header() {
-  const {search} = useParams();
+  const {keyword} = useParams();
   const [text, setText] = useState('');
   const navigate = useNavigate();
 
@@ -21,7 +21,7 @@ export default function Header() {
     navigate(`/videos/${text}`);
   }
 
-  useEffect(() => setText(search ? search : ''), [search]);
+  useEffect(() => setText(keyword ? keyword : ''), [keyword]);
 
   return (
     <header className='sticky top-0 py-3 align-middle  border-b-2 bg-bgPrimary'>

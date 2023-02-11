@@ -5,14 +5,18 @@ export class RealClient {
 
   API_KEY = 'AIzaSyD7S8L9gxOOPQLMVeMY1GzrKrsP8UoT_AE';
 
-  async getSearchList(text) {
+  async getVideos(keyword) {
+    return keyword ? this.#getSearchList(keyword) : this.#getTrendList()
+  }
+
+  async #getSearchList(text) {
     const response = await fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q=${text}&key=${this.API_KEY}`);
     
     const json = await response.json();
     return this.makeVideosList(json);
   }
 
-  async getTrendList() {
+  async #getTrendList() {
     const response = await fetch (`https://youtube.googleapis.com/youtube/v3/videos?part=snippet&chart=mostPopular&maxResults=25&key=${this.API_KEY}`);
     if(!response) {return []};
     const json = await response.json();

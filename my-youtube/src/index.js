@@ -9,7 +9,6 @@ import {
 import App from './App';
 import Home from './pages/Home';
 import ErrorPage from './pages/error-page';
-import Search, { loader as searchLoader } from './pages/Search';
 import Watch from './pages/Watch';
 
 
@@ -25,8 +24,8 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/videos/:search",
-        element: <Search />,
+        path: "/videos/:keyword",
+        element: <Home />,
       },
       {
         path: "/videos/watch/:videoId",

@@ -1,14 +1,14 @@
 import React, { useContext } from 'react';
-import '../App.css';
 import Video from '../components/Video';
 import { useQuery } from '@tanstack/react-query';
-import { FakeClient } from '../client/FakeClient';
 import { ClientContext } from '../context/ClientContext';
+import { useParams } from 'react-router-dom';
 
 export default function Home() {
+  const {keyword} = useParams(); 
   const client = useContext(ClientContext);
 
-  const {isLoading, error, data: videos} = useQuery(['trend'], () => client.getTrendList());
+  const {isLoading, error, data: videos} = useQuery(['videos', keyword], () => client.getVideos(keyword));
   console.log('videos',videos);
   
   if(isLoading) return <p>Loading...</p>
