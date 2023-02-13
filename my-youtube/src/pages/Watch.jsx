@@ -9,9 +9,10 @@ export default function Watch() {
   const client = useContext(ClientContext);
   const {videoId} = useParams();
   const {state} = useLocation();
-  //❗️TODO : 아직 이미지가 로딩중이거나 에러가 났을때 기본 이미지를 보여주는게 좋음
-  const { isLoading, error, data: relatedVideos } = useQuery(['related'], () => client.getRelatedList(videoId));
-  const { isLoading:isLoadingChannelImg, error: errorChannelImg, data: channelImg } = useQuery(['channelImg'], () => client.getChannelThumb(state.channelId));
+  //❗️TODO : 아직 이미지가 로딩중이거나 에러가 났을때 기본 이미지를 보여주는게 좋음. 얘는 음....얘도 5분??? 자주 바뀔필요 없을듯 
+  const { isLoading, error, data: relatedVideos } = useQuery(['related', state.videoId], () => client.getRelatedList(videoId), {staleTime: 5 * 60 * 1000});
+  //이미지 가져오는건 자주 업데이트 할 필요없으니까 캐시타임이랑 같은 5분으로,,?
+  const { isLoading:isLoadingChannelImg, error: errorChannelImg, data: channelImg } = useQuery(['channelImg', state.channelId], () => client.getChannelThumb(state.channelId), {staleTime: 5 * 60 * 1000});
 
   if (isLoading) return 'relatedVideo Loading...'  ;
   if (error) return 'An relatedVideo error has occurred: ' + error.message;

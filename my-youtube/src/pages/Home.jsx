@@ -8,8 +8,13 @@ export default function Home() {
   const {keyword} = useParams(); 
   const client = useContext(ClientContext);
 
-  const {isLoading, error, data: videos} = useQuery(['videos', keyword], () => client.getVideos(keyword));
-  console.log('videos',videos);
+  const {isLoading, error, data: videos} = useQuery(['videos', keyword], 
+  () => {
+    console.log('query 실행!!!');
+    return client.getVideos(keyword);
+  }, 
+  {staleTime: 30 * 1000} //30초
+  );
   
   if(isLoading) return <p>Loading...</p>
   if(error) return <p>Home.jsx error! {error.message}</p>
