@@ -1,7 +1,6 @@
 import React, { useContext } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import { useLocation, useParams } from 'react-router-dom';
-import { FakeClient, getChannelThumb, getRelatedList } from '../client/FakeClient';
 import RelatedVideo from '../components/RelatedVideo';
 import { ClientContext } from '../context/ClientContext';
 
@@ -21,12 +20,12 @@ export default function Watch() {
 
 
    return (
-    <div className='flex w-full gap-10'>
+    <div className='flex w-full h-full gap-10'>
       <main className='flex-auto space-y-3 w-4/6'>
         <iframe id="existing-iframe-example"
             src={`https://www.youtube.com/embed/${videoId}?enablejsapi=1`}
             frameBorder="0"
-            className='w-full h-1/5'
+            className='w-full h-2/3 md:max-h-96'
             // style="border: solid 4px #37474F"
         ></iframe>
         <div className='font-bold  text-xl'>{state.title}</div>
@@ -36,8 +35,7 @@ export default function Watch() {
         </div>
         <div className='text-sm text-gray-600'>{state.description}</div>
       </main>
-      <aside className='flex flex-col space-y-3 w-2/6'>
-        {/* TODO : video 재사용하는건 맞는데 display가 달라야하는데 말이지 */}
+      <aside className='flex-col space-y-3 w-2/6 hidden md:flex '>
         {relatedVideos.map((video) => <RelatedVideo key={video.videoId} info={video}/>)}
       </aside>
     </div>

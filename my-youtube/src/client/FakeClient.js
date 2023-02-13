@@ -1,3 +1,5 @@
+import axios from "axios";
+
 export class FakeClient {
   constructor(){}
 
@@ -7,26 +9,19 @@ export class FakeClient {
 
   async #getSearchList(text) {
     console.log(`search ${text} 실행됨`);
-    const response = await fetch(`/data/search.json`);
-    if(!response) {return []};
-    const json = await response.json();
-    return this.makeVideosList(json);
+    return axios.get(`/data/search.json`)
+    .then((response) => this.#makeVideosList(response.data));
   }
 
   async #getTrendList() {
-    console.log('trend 실행됨');
-
-    const response = await fetch (`/data/trend.json`);
-    console.log('response', response);
-    const json = await response.json();
-    return this.makeVideosList(json);
+    return axios.get(`/data/trend.json`)
+    .then((response) =>  this.#makeVideosList(response.data));
   }
 
   async getRelatedList(videoId) {
-  const response = await fetch (`/data/related.json`);
-  if(!response) {return []};
-  const json = await response.json();
-  return this.makeVideosList(json)
+  return axios.get(`/data/related.json`) 
+  .then((response) =>  this.#makeVideosList(response.data));
+
 }
 
 async getChannelThumb(channelId) {
@@ -34,8 +29,10 @@ async getChannelThumb(channelId) {
 }
 
 
-  makeVideosList(json){
-    const items = json.items;
+  #makeVideosList(data){
+    if(!data) return [];
+    const items = data.items;
+    console.log('items', items);
     return items.map((item) => { return {
       'videoId': item.id.videoId || item.id.playlistId || item.id.channelId || item.id,
       'thumbnail': item.snippet.thumbnails.medium.url,

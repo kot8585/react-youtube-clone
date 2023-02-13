@@ -15,9 +15,14 @@ export default function Home() {
   if(error) return <p>Home.jsx error! {error.message}</p>
 
   return (
-    <main className='flex flex-wrap content-center gap-2 space-y-2'>
-      {videos.map((video) => <Video key={video.videoId} info={video}/>)}
-    </main>
+    <>
+      {isLoading && <p>Loading...</p>}
+      {error && <p>Error: {error.message}</p>}
+      <ul className='grid grid-cols-2 lg:grid-cols-4 gap-2 gap-y-4'>
+      {videos && videos.map((video) => <Video key={video.videoId} info={video}/>
+      )}
+      </ul>
+    </>
   );
 }
 

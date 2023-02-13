@@ -12,8 +12,8 @@ export default function RelatedVideo({info}) {
     <article className='flex flex-none gap-2' onClick={handleClick}>
         <img alt='thumbnail' src={info.thumbnail} className='w-40 rounded-xl'/>
         <div className='flex flex-col w-full'>
-        <h1 className="title font-bold text-sm" >{info.title}</h1>
-        <span className='text-textGray text-xs mt-2'>{info.channelTitle}</span>
+        <h1 className="title font-bold text-sm line-clamp-2" >{info.title}</h1>
+        <span className='text-textGray text-xs mt-2 line-clamp-1'>{info.channelTitle}</span>
         <span className='text-textGray text-xs'>{info.publishedAt}</span>
         </div>
       </article>
