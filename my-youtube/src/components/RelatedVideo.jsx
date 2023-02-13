@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import { format } from 'timeago.js';
 
 export default function RelatedVideo({info}) {
   const navigate = useNavigate();
@@ -14,7 +15,7 @@ export default function RelatedVideo({info}) {
         <div className='flex flex-col w-full'>
         <h1 className="title font-bold text-sm line-clamp-2" >{info.title}</h1>
         <span className='text-textGray text-xs mt-2 line-clamp-1'>{info.channelTitle}</span>
-        <span className='text-textGray text-xs'>{info.publishedAt}</span>
+        <span className='text-textGray text-xs'>{format(info.publishedAt)}</span>
         </div>
       </article>
   );
