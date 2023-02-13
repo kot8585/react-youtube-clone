@@ -5,7 +5,7 @@ import { Youtube } from "../client/Youtube";
 
 const fakeClient = new FakeClient();
 const realClient = new RealClient();
-const youtube = new Youtube(fakeClient);
+const youtube = new Youtube(realClient);
 export const ClientContext = createContext(youtube);
 
 

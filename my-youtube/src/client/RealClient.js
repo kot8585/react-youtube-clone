@@ -4,7 +4,7 @@ export class RealClient {
     this.instance = axios.create({
       baseURL: 'https://youtube.googleapis.com/youtube/v3',
       params: {
-        key: 'AIzaSyD7S8L9gxOOPQLMVeMY1GzrKrsP8UoT_AE',
+        key: process.env.REACT_APP_API_KEY,
       }
     })
   }

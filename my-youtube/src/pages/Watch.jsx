@@ -9,7 +9,7 @@ export default function Watch() {
   const client = useContext(ClientContext);
   const {videoId} = useParams();
   const {state} = useLocation();
-  
+  //❗️TODO : 아직 이미지가 로딩중이거나 에러가 났을때 기본 이미지를 보여주는게 좋음
   const { isLoading, error, data: relatedVideos } = useQuery(['related'], () => client.getRelatedList(videoId));
   const { isLoading:isLoadingChannelImg, error: errorChannelImg, data: channelImg } = useQuery(['channelImg'], () => client.getChannelThumb(state.channelId));
 
