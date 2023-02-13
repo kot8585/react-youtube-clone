@@ -9,29 +9,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  @apply flex flex-col items-center;
+  @apply px-5;
+}
+
+/* ❗️max-w-screen */
+#root{
+  @apply max-w-screen-2xl;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-.title {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  /* number of lines to show */
-  line-clamp: 2;
-  -webkit-box-orient: vertical;
-}
-
-.channel {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 1;
-  /* number of lines to show */
-  line-clamp: 1;
-  -webkit-box-orient: vertical;
 }

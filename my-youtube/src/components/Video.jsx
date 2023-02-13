@@ -1,5 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import * as timeago from 'timeago.js';
+
 
 export default function Video({info}) {
   const navigate = useNavigate();
@@ -9,12 +11,14 @@ export default function Video({info}) {
   }
 
   return (
-    <article className='flex flex-col flex-none' onClick={handleClick}>
-        <img alt='thumbnail' src={info.thumbnail} className="w-36 text" />
-        <h1 className="w-36 title font-bold" >{info.title}</h1>
-        <span className='w-32 channel text-textGray text-sm'>{info.channelTitle}</span>
-        <span className='text-textGray text-xs'>{info.publishedAt}</span>
-      </article>
+    <li onClick={handleClick}>
+        <img alt='thumbnail' src={info.thumbnail} className="w-full text rounded-xl" />
+        <div className='px-2'>
+          <p className="my-2 line-clamp-2 font-bold" >{info.title}</p>
+          <p className='line-clamp-1 text-textGray text-sm'>{info.channelTitle}</p>
+          <p className='text-textGray text-xs'>{timeago.format(info.publishedAt)}</p>
+        </div>
+      </li>
   );
 }
 
