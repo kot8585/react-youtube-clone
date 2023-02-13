@@ -30,7 +30,7 @@ const router = createBrowserRouter([
         element: <Videos />
       },
       {
-        path: '/watch/:videoId',
+        path: 'videos/watch/:videoId',
         element: <VideoDetail />
       }
     ]

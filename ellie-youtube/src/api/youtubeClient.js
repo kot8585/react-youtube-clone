@@ -11,12 +11,14 @@ export default class YoutubeClient {
 
   //❗️파라미터 세팅해주기
   async search(params) {
-    //.get의 첫번째 Param은 뭐가 들어가는거지?
     return this.httpClient.get('search', params);
   }
 
-   async videos(params) {
+  async videos(params) {
     return this.httpClient.get('videos', params);
-   }
+  }
 
+  async channels(params) {
+    return this.httpClient.get('channels', params);
+  }
 }
