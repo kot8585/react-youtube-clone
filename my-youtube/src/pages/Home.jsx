@@ -23,7 +23,7 @@ export default function Home() {
     <>
       {isLoading && <p>Loading...</p>}
       {error && <p>Error: {error.message}</p>}
-      <ul className='grid grid-cols-2 lg:grid-cols-4 gap-2 gap-y-4'>
+      <ul className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 gap-y-4'>
       {videos && videos.map((video) => <Video key={video.videoId} info={video}/>
       )}
       </ul>
